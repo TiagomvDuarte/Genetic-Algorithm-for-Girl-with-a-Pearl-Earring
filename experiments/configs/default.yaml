@@ -1,0 +1,17 @@
+pop_size: 150
+generations: 5000
+selection_method: rank
+tournament_k: 3
+crossover_method: uniform
+crossover_rate: 0.8
+mutation_method: multi
+mutation_rate: 0.05
+sigma: 10.0
+elite_size: 2
+seed: 42
+early_stop_generations: 500
+snapshot_interval: 500
+snapshot_dir: data/snapshots
+fast_fitness: false
+fitness_mode: rmse
+local_search_iterations: 5
